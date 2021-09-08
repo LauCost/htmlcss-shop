@@ -57,3 +57,21 @@ body{
     background-color: black;
 }
 
+.cuore{
+    background-color: white;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    right: 0px;
+    top: 10px;
+    vertical-align: middle;
+    display: flex;
+    font-size: 22px;
+    flex-direction: column;
+    align-content: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
