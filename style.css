@@ -18,7 +18,6 @@ body{
 .debug > main{
     width: 100%;
     height: 100%;
-    background-color: red;
     margin: auto;
 }
 
@@ -64,7 +63,7 @@ body{
     height: 35px;
     text-align: center;
     right: 0px;
-    top: 10px;
+    top: 15px;
     vertical-align: middle;
     display: flex;
     font-size: 22px;
@@ -75,3 +74,43 @@ body{
     align-items: stretch;
 }
 
+
+.sconto{
+    position: absolute;
+    width: 15%;
+    height: 7%;
+    background-color: red;
+    text-align: center;
+    display: flex;
+    vertical-align: middle;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    bottom: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+.soste{
+    left: 50px;
+}
+
+.soste, .soste2{
+    position: absolute;
+    width: 33%;
+    height: 7%;
+    background-color: green;
+    text-align: center;
+    display: flex;
+    vertical-align: middle;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 18px;
+    bottom: 15px;
+}
+
+.soste2{
+    left: 0px;
+}
