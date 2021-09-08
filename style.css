@@ -61,14 +61,14 @@ body{
 .cuore{
     background-color: white;
     position: absolute;
-    width: 35px;
-    height: 35px;
+    width: 10%;
+    height: 7%;
     text-align: center;
     right: 0px;
-    top: 15px;
+    top: 20px;
     vertical-align: middle;
     display: flex;
-    font-size: 22px;
+    font-size: 28px;
     flex-direction: column;
     align-content: stretch;
     flex-wrap: wrap;
@@ -81,7 +81,7 @@ body{
     position: absolute;
     width: 10%;
     height: 5%;
-    background-color: red;
+    background-color: #EB0037;
     text-align: center;
     display: flex;
     vertical-align: middle;
@@ -99,7 +99,7 @@ body{
     position: absolute;
     width: 27%;
     height: 5%;
-    background-color: green;
+    background-color: #00875A;
     text-align: center;
     display: flex;
     vertical-align: middle;
@@ -122,5 +122,10 @@ body{
 .testo{
     width: 420px;
     float: left;
-    margin: 0.5%;
+    margin: 5px;
+    font-size: 20px;
+}
+
+p > span {
+    color: #EB0037;
 }
