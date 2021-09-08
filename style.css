@@ -11,7 +11,7 @@
 }
 
 body{
-    width: 50%;
+    width: 69%;
     margin: auto;
 }
 
@@ -26,34 +26,36 @@ body{
 }
 
 .img1, .img2, .img3, .img4, .img5, .img6{
-    height: 400px;
+    height: 600px;
     float: left;
-    width: 300px;
+    width: 420px;
     position: relative;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .img1{
-    background-color: yellow;
+    background-image: url(./img/1.webp);
 }
 
 .img2{
-    background-color: beige;
+    background-image: url(./img/2.webp);
 }
 
 .img3{
-    background-color: rgb(204, 12, 178);
+    background-image: url(./img/3.webp);
 }
 
 .img4{
-    background-color: rgb(76, 31, 197);
+    background-image: url(./img/4.webp);
 }
 
 .img5{
-    background-color: rgb(10, 93, 24);
+    background-image: url(./img/5.webp);
 }
 
 .img6{
-    background-color: black;
+    background-image: url(./img/6.webp);
 }
 
 .cuore{
@@ -77,8 +79,8 @@ body{
 
 .sconto{
     position: absolute;
-    width: 15%;
-    height: 7%;
+    width: 10%;
+    height: 5%;
     background-color: red;
     text-align: center;
     display: flex;
@@ -86,9 +88,7 @@ body{
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    bottom: 15px;
     color: white;
-    font-size: 18px;
 }
 
 .soste{
@@ -97,8 +97,8 @@ body{
 
 .soste, .soste2{
     position: absolute;
-    width: 33%;
-    height: 7%;
+    width: 27%;
+    height: 5%;
     background-color: green;
     text-align: center;
     display: flex;
@@ -107,10 +107,20 @@ body{
     flex-wrap: nowrap;
     justify-content: space-evenly;
     color: white;
-    font-size: 18px;
-    bottom: 15px;
 }
 
 .soste2{
     left: 0px;
+}
+
+.sconto, .soste, .soste2{
+    bottom: 20px;
+    font-size: 20px;
+}
+
+
+.testo{
+    width: 420px;
+    float: left;
+    margin: 0.5%;
 }
