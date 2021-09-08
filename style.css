@@ -25,6 +25,7 @@ body{
     margin: 10px 5px 5px 5px;
 }
 
+/* Le img articoli */
 .img1, .img2, .img3, .img4, .img5, .img6{
     height: 600px;
     float: left;
@@ -59,6 +60,7 @@ body{
     background-image: url(./img/6.webp);
 }
 
+/* Hover img */
 .img1:hover{
     background-image: url(./img/1b.webp);
 }
@@ -82,7 +84,10 @@ body{
 .img6:hover{
     background-image: url(./img/6b.webp);
 }
+/* /Hover img */
+/* /Le img articoli */
 
+/* I vari rettangolini */
 .cuore{
     background-color: white;
     position: absolute;
@@ -142,8 +147,9 @@ body{
     bottom: 20px;
     font-size: 20px;
 }
+/* /I vari rettangolini */
 
-
+/* Info Articoli */
 .testo{
     width: 420px;
     float: left;
@@ -154,4 +160,4 @@ body{
 p > span {
     color: #EB0037;
 }
-
+/* /Info Articoli */
