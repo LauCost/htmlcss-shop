@@ -32,6 +32,7 @@ body{
     position: relative;
     background-size: 100%;
     background-repeat: no-repeat;
+    transition: all 0.5s;
 }
 
 .img1{
@@ -56,6 +57,30 @@ body{
 
 .img6{
     background-image: url(./img/6.webp);
+}
+
+.img1:hover{
+    background-image: url(./img/1b.webp);
+}
+
+.img2:hover{
+    background-image: url(./img/2b.webp);
+}
+
+.img3:hover{
+    background-image: url(./img/3b.webp);
+}
+
+.img4:hover{
+    background-image: url(./img/4b.webp);
+}
+
+.img5:hover{
+    background-image: url(./img/5b.webp);
+}
+
+.img6:hover{
+    background-image: url(./img/6b.webp);
 }
 
 .cuore{
@@ -129,3 +154,4 @@ body{
 p > span {
     color: #EB0037;
 }
+
